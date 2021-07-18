@@ -1,0 +1,107 @@
+    /* navigation section */
+    
+    #navbar {
+        flex-direction: column;
+    }
+    
+    #navbar ul li a {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    
+    #navbar .bt {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #navbar .btn {
+        display: flex;
+        align-items: center;
+        margin: 5px 2px;
+        font-size: 12px;
+        padding: 2px;
+        overflow: hidden;
+    }
+    /* Home section */
+    
+    #home {
+        height: 377px;
+        padding: 2px 5px;
+    }
+    
+    #home::before {
+        height: 520px;
+        padding: 2px 20px;
+    }
+    
+    .homebt {
+        font-size: 12px;
+        padding: 2px;
+    }
+    /* service section */
+    
+    #service {
+        flex-direction: column;
+    }
+    
+    #service .box {
+        border: 2px solid #e30303;
+        padding: 20px;
+        margin: 2px 2px;
+        border-radius: 20px;
+        background-color: #c9c9c9;
+    }
+    
+    #service .box img {
+        display: block;
+        margin: auto;
+        height: 50px;
+    }
+    /* client-section */
+    /* #client-section {
+    flex-wrap: wrap;
+} */
+    
+    #clients {
+        flex-wrap: wrap;
+    }
+    
+    #clients img {
+        height: 50px;
+        padding: 2px 6px;
+    }
+    /* contact-us section */
+    
+    #contact h1 {
+        padding: 15px 0px;
+    }
+    
+    #contact-box label {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #contact-box input {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        padding: 2px;
+        margin: 10px auto;
+    }
+    /* footer section */
+    
+    footer {
+        height: 50px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(8, 8, 27);
+        color: white;
+    }
+    /* utility classes */
+    
+    #container .primary {
+        margin: 40px 0px;
+    }

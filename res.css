@@ -1,0 +1,263 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Navigation bar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#navbar::before {
+    content: "";
+    width: 100%;
+    height: 95%;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#logo {
+    margin: 10px 20px;
+}
+
+#logo img {
+    height: 60px;
+    margin: 4px 2px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 2px 15px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(100, 100, 100);
+    display: block;
+    padding: 2px 20px;
+    border-radius: 20px;
+}
+
+#navbar .bt {
+    position: absolute;
+    right: 10px;
+}
+
+#navbar .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar .btn {
+    margin: 0px 5px;
+    padding: 5px 8px;
+    background-color: black;
+    color: chartreuse;
+    cursor: pointer;
+    animation-name: b;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes b {
+    to {
+        background-color: black;
+        color: chartreuse;
+    }
+    from {
+        border-radius: 15px;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        color: rgb(250, 3, 3);
+    }
+    /* from {
+        background-color: black;
+        color: rgb(250, 3, 3);
+    } */
+}
+
+
+/* Section Bar */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 237PX;
+    padding: 2px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    width: 100%;
+    height: 304px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#home h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 4px;
+}
+
+#home p {
+    text-align: center;
+    color: white;
+    padding: 4px 5px;
+    font-size: 20px;
+}
+
+#home .homebt a {
+    text-decoration: none;
+    color: white;
+}
+
+#home .homebt {
+    padding: 4px 24px;
+    margin: 5px 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: red;
+    border-radius: 8px;
+    cursor: pointer;
+    animation-name: k;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes k {
+    to {
+        padding: 4px 24px;
+        margin: 5px 5px;
+        border: 1px solid white;
+        background-color: black;
+        color: red;
+    }
+    from {
+        border-radius: 15px;
+        padding: 5px 30px;
+        margin: 8px 10px;
+        border: 1px solid white;
+        background-color: rgb(255, 254, 254);
+        color: rgb(255, 255, 255);
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+#service {
+    margin: 30px;
+    display: flex;
+}
+
+#service .box {
+    border: 2px solid #e30303;
+    padding: 30px;
+    margin: 2px 6px;
+    border-radius: 20px;
+    background-color: #c9c9c9;
+}
+
+#service .box img {
+    display: block;
+    margin: auto;
+    height: 100px;
+}
+
+#client-section {
+    position: relative;
+}
+
+#client-section h1 {
+    padding: 20px 0px;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding: 28px;
+}
+
+#clients img {
+    height: 100px;
+}
+
+#contact {
+    height: 400px;
+}
+
+#contact h1 {
+    padding: 26px 0px;
+}
+
+#contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contact-box label {
+    text-align: center;
+    font-size: 20px;
+}
+
+#contact-box input {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 8px;
+    margin: 15px auto;
+}
+
+#contact-box .sb {
+    padding: 5px 8px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 8, 27);
+    color: white;
+}
